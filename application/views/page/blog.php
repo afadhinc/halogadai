@@ -1,55 +1,188 @@
 
-  <section class="kd-pagesection" style=" padding: 50px 0px 20px 0px; ">
-	<div class="container">
-	  <div class="row">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>/src/custom/css/blog.css" />
 
-		<div class="col-md-12">
-		  <div class="kd-section-title"><h3>our latest blogs</h3></div>
-		  <div class="kd-blog-list kd-blogmedium">
-			<?php foreach ($datablog->result() as $blog){ 
-				$tamp=$blog->images;
-			?>
-			<div class="row">
-			  <div class="col-md-12">
-				<div class="bloginner">
-				  <figure><a href="#"><img src="<?php echo base_url(); ?>assets/frontend/img/imgMenstruasi/<?php echo $tamp ?>" alt=""></a>
-					<figcaption><a href="#" class="fa fa-plus-circle"></a></figcaption>
-				  </figure>
-				  <div class="kd-bloginfo">
-					<h2><a href="<?php echo base_url()?>Home/detailBlog/<?php echo $blog->alias_url ?>"><?php echo $blog->title ?></a></h2>
-					<ul class="kd-postoption">
-					  <li><a href="#" class="thcolorhover">News </a></li>
-					  <li><time datetime="2008-02-14 20:00">| <?php echo strftime(" %d %B %Y",strtotime($blog->tgl_article)) ?></time></li>
-					</ul>
-					<p class="break-word"><?php echo substr($blog->body, 0,150) ?>...</p>
+	<header>
+	<div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Blog</h1>
+        </div>
+      </div>
+</header>
 
-					<div class="kd-usernetwork">
-					  <ul class="kd-blogcomment">
-						<li><a href="#" class="thcolorhover"><i class="fa fa-comments-o"></i> 15</a></li>
-						<li><a href="#" class="thcolorhover"><i class="fa fa-heart-o"></i> 456</a></li>
-					  </ul>
-					  <div class="kd-social-network">
-						<ul>
-						  <li><a href="#" class="thcolorhover"><i class="fa fa-facebook"></i></a></li>
-						  <li><a href="#" class="thcolorhover"><i class="fa fa-twitter"></i></a></li>
-						  <li><a href="#" class="thcolorhover"><i class="fa fa-tumblr"></i></a></li>
-						  <li><a href="#" class="thcolorhover"><i class="fa fa-google-plus"></i></a></li>
-						</ul>
-					  </div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  
+	<main style="margin-top: 0px">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h4 class="title-blog mt-5 mb-5">Our Lates Blog</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-11 col-sm-11 card-blog-top">
+            <div class="autoplay">
+			<?php foreach ($datablog->result() as $blog) {
+    $tamp = $blog->images;
+    ?>
+			<div class="row justify-content-center">
+                <div class="col-md-12 col-12 col-sm-12">
+                  <div class="card">
+                    <img
+                      class="card-img-top"
+                      src="<?php echo base_url(); ?>assets/frontend/img/imgMenstruasi/<?php echo $tamp ?>"
+                      alt="Card image cap" style="min-height: 255px"
+                    />
+                    <div class="card-body">
+                      <p><?php echo strftime(" %d %B %Y", strtotime($blog->tgl_article)) ?></p>
+                      <h5 class="card-title">
+					  <a href="<?php echo base_url() ?>Home/detailBlog/<?php echo $blog->alias_url ?>"><?php echo $blog->title ?></a>
+                      </h5>
+                      <p class="card-text">
+					  <?php echo substr($blog->body, 0, 150) ?>...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			<?php }?>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row autoplay">
+              <div class="col-md-12 col-md-12 col-sm-12 mt-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="<?php echo base_url(); ?>/src/image/servis-motor-pasca-mudik.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p>Motor Yamaha</p>
+                    <h5 class="card-title">
+                      Tips supaya performa motor tetap maksimal
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Qui tempore maiores quod modi praesentium saepe atque
+                      delectus itaque vero temporibus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-md-12 col-sm-12 mt-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="<?php echo base_url(); ?>/src/image/servis-mudik-setelah-mudik.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p>Mobil</p>
+                    <h5 class="card-title">
+                      Perlukah servis mudik sebelum mudik ?
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aliquam natus deserunt consectetur in ipsa officiis
+                      adipisci repellat corrupti possimus nostrum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-md-12 col-sm-12 mt-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="<?php echo base_url(); ?>/src/image/servis-motor-pasca-mudik.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p>Motor Yamaha</p>
+                    <h5 class="card-title">
+                      Tips supaya performa motor tetap maksimal
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Qui tempore maiores quod modi praesentium saepe atque
+                      delectus itaque vero temporibus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-md-12 col-sm-12 mt-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="<?php echo base_url(); ?>/src/image/servis-mudik-setelah-mudik.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <p>Mobil</p>
+                    <h5 class="card-title">
+                      Perlukah servis mudik sebelum mudik ?
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aliquam natus deserunt consectetur in ipsa officiis
+                      adipisci repellat corrupti possimus nostrum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mobil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Motor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Elektronik & Furniture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Berita lainnya</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+            <div class="row justify-content-center card-blog">
+
+			<?php foreach ($datablog->result() as $blog) {
+    $tamp = $blog->images;
+    ?>
+
+              <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="<?php echo base_url(); ?>assets/frontend/img/imgMenstruasi/<?php echo $tamp ?>"
+					alt="Card image cap"
+					style="min-height: 138px;"
+                  />
+                  <div class="card-body">
+                    <p><?php echo strftime(" %d %B %Y", strtotime($blog->tgl_article)) ?></p>
+                    <h5 class="card-title"><a href="<?php echo base_url() ?>Home/detailBlog/<?php echo $blog->alias_url ?>"><?php echo $blog->title ?></a></h5>
+                    <p class="card-text p-description">
+					<?php echo substr($blog->body, 0, 150) ?>...
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+			  <?php }?>
 
 			</div>
-			<?php } ?>
-		  </div>
-		</div>
-
-		  
-
-	  </div>
-	</div>
-  </section>
-  
+          </div>
+        </div>
+      </div>
+    </main>
