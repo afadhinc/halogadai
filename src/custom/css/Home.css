@@ -1,0 +1,2222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header nav {
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav .navbar-brand {
+  color: #012756 !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+header nav .collapse .navbar-nav a {
+  color: #03071E !important;
+  font-weight: 500;
+}
+
+header nav .collapse .navbar-nav a:hover {
+  color: #F5B51F !important;
+}
+
+header nav .collapse .navbar-nav .active {
+  color: #F5B51F !important;
+}
+
+header nav .waNav-desktop-display a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav-desktop-display a img {
+  height: 24px;
+}
+
+header nav .waNav-desktop-display a .display-none {
+  display: none;
+}
+
+header nav .waNav-desktop-display a:hover {
+  text-decoration: none;
+}
+
+header nav .waNav-mobile-display a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav-mobile-display a img {
+  height: 24px;
+}
+
+header nav .waNav-mobile-display a .display-none {
+  display: none;
+}
+
+header nav .waNav-mobile-display a:hover {
+  text-decoration: none;
+}
+
+header .jumbotron {
+  margin-top: 70px;
+  height: 300px;
+  background: #012756;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .jumbotron .display-4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+main .banner-top {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+main .banner-top .jumbotron {
+  margin-top: -100px;
+  background-image: url("../../image/header.png");
+  height: 600px;
+  background-size: cover;
+  position: relative;
+}
+
+main .banner-top .jumbotron h3 {
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+
+main .banner-top .jumbotron p {
+  color: #F5B51F;
+  width: 100%;
+}
+
+main .banner-top .jumbotron .paragraph-mitra {
+  position: absolute;
+  bottom: -50px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+main .banner-top .jumbotron .paragraph-mitra img {
+  position: absolute;
+  bottom: -40px;
+  margin-left: 10px;
+  height: 64px;
+}
+
+main .banner-top .jumbotron img {
+  margin-top: 200px;
+  height: 300px;
+}
+
+main .banner-top .jumbotron .btn-custom {
+  color: black;
+}
+
+main .slider .slider-card {
+  position: relative;
+}
+
+main .slider .slider-card h3 {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  color: white;
+  width: 270px;
+  font-size: 18px;
+}
+
+main .slider .slider-card p {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  color: #F5B51F;
+  width: 270px;
+  font-size: 10px;
+}
+
+main .slider .slider-card .btn-custom {
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  font-size: 14px !important;
+}
+
+main .slider .slider-card .mitra {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+}
+
+main .slider .slider-card .mitra img {
+  height: 32px;
+  top: -10px;
+  left: 270px;
+  position: absolute;
+}
+
+main .img-fluid {
+  border-radius: 20px;
+  margin: 20px 0px;
+  height: 350px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main .title-section {
+  font-weight: bold;
+}
+
+main .second-title-section {
+  font-weight: normal;
+}
+
+main .leasing-partner img {
+  height: 64px;
+}
+
+main .leasing-partner .kreditplus-img {
+  height: 50px !important;
+}
+
+main .card-home {
+  padding: 50px;
+  background: #012756;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+main .card-home form .card-input-home {
+  color: black;
+  background: white;
+  width: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: relative;
+  right: -50px;
+}
+
+main .card-home form .card-input-home img {
+  height: 64px;
+  margin-left: 20px;
+}
+
+main .card-home form p {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+main ul {
+  list-style: none;
+}
+
+main .btn-custom {
+  background: #F5B51F;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+main .btn-custom:hover {
+  background: #cc971d;
+}
+
+main .dataPengalaman {
+  color: #ffffff;
+}
+
+main .dataPengalaman .jumbotron {
+  background-image: url("../../image/background.jpg");
+}
+
+main .dataPengalaman img {
+  height: 64px;
+}
+
+main .dataPengalaman .pengguna {
+  font-size: 44px;
+}
+
+main .dataPengajuanTanpaSurvey {
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+main .dataPengajuanTanpaSurvey .jumbotron {
+  overflow: hidden;
+  margin-top: -40px;
+  background: #012756;
+}
+
+main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+  color: #F5B51F;
+  background: #012756;
+  border: 1px solid #F5B51F;
+}
+
+main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+  color: #012756;
+  background: #F5B51F;
+  border: 1px solid #012756;
+}
+
+main .dataPengajuanRules {
+  margin-top: -40px;
+}
+
+main .dataPengajuanRules .jumbotron {
+  background: #F5B51F;
+}
+
+main .dataPengajuanRules .jumbotron h4 {
+  line-height: 1.8;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules {
+  background: #DCDBDA;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+  min-height: 200px;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+  font-size: 12px;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules img {
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+main .dataPengajuanRules .jumbotron .btn-custom {
+  background: #707070;
+  color: #F5B51F;
+}
+
+main .dataPengajuanRules .jumbotron .btn-custom:hover {
+  background: #F5B51F;
+  color: #707070;
+  border: 1px solid #707070;
+}
+
+main .testimoni .card-testimoni {
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .testimoni .card-testimoni .slick-initialized .slick-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .testimoni .card-testimoni p {
+  font-size: 16px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni img {
+  height: 64px;
+  width: 64px;
+  margin: 0px auto 10px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+  font-size: 16px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+  font-size: 10px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+  font-size: 10px;
+  font-style: italic;
+}
+
+main .testimoni .card-testimoni .testimonial {
+  font-size: 12px;
+}
+
+main .title-faq {
+  font-weight: 600;
+}
+
+main #accordion .card {
+  border: none;
+}
+
+main #accordion .card .card-header {
+  border: none;
+  background: none;
+  padding-bottom: 0px;
+}
+
+main #accordion .card .card-header h5 .btn {
+  padding-bottom: 0px;
+}
+
+main #accordion .card .card-header h5 button {
+  color: black !important;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+main #accordion .card .card-header h5 button i {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 0 20px 0 -20px;
+}
+
+main #accordion .card .card-header h5 .collapsed i {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main #accordion .card .card-header h5 .btn-link {
+  text-decoration: none;
+}
+
+main #accordion .card .card-header h5 button:hover {
+  text-decoration: none;
+}
+
+main #accordion .card .card-body {
+  font-size: 12px;
+  padding: 5px 0px 0px 30px;
+}
+
+main .card-sale {
+  margin-top: 50px;
+  background: #F5B51F;
+  padding: 20px;
+  color: #012756;
+  border-radius: 30px;
+}
+
+main .card-sale img {
+  height: 200px;
+}
+
+main .card-sale .promo-title {
+  font-size: 24px;
+  color: "Poppins", sans-serif !important;
+  font-weight: 600;
+}
+
+main .card-sale .promo-tawaran {
+  font-size: 14px;
+  color: "Poppins", sans-serif !important;
+}
+
+main .card-sale .btn-custom {
+  margin: 10px 0px;
+  width: 100%;
+  background: #012756;
+  color: #F5B51F;
+}
+
+main .card-sale .btn-custom:hover {
+  background: #F5B51F;
+  border: 1px solid #012756;
+  color: #012756;
+}
+
+main .card-sale .promo-tawaran-syarat {
+  font-size: 12px;
+}
+
+main .pengawas h3 {
+  font-weight: 400;
+}
+
+main .pengawas img {
+  height: 64px;
+}
+
+main .pengawas .ojk-img {
+  height: 128px;
+  margin-top: -10px;
+}
+
+main .pengawas .appi-img {
+  margin-top: 30px;
+  height: 50px;
+}
+
+main .pengawas .infobank-img {
+  margin-top: -3px;
+  height: 96px;
+}
+
+main .pengawas .investor-img {
+  height: 50px;
+  margin-top: 26px;
+}
+
+footer {
+  background: #012756;
+  color: #ffffff;
+  min-height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo {
+  font-size: 26px;
+  color: #F5B51F;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer .corporate {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer .alamatCorporate {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+footer .contactCorporate {
+  font-size: 14px;
+}
+
+footer .emailCorporate {
+  font-size: 14px;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (min-width: 0px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 20px;
+    margin-right: 3px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+    margin-right: 8px;
+  }
+  header nav .waNav-mobile-display a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  header nav .waNav-mobile-display a img {
+    height: 16px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    font-size: 12px !important;
+    display: inline;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main {
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+  main .list-display-d {
+    display: none;
+  }
+  main .banner-top .jumbotron h3 {
+    margin-top: 70px;
+  }
+  main .banner-top .jumbotron p span {
+    display: block;
+    margin-bottom: 30px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    font-size: 12px;
+    position: absolute;
+    width: 80%;
+    bottom: -70px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -25px;
+    margin-left: 10px;
+    height: 30px;
+  }
+  main .banner-top .jumbotron img {
+    margin-top: 90px;
+    height: 170px;
+  }
+  main .title-section {
+    font-weight: bold;
+  }
+  main .second-title-section {
+    font-weight: normal;
+  }
+  main .leasing-partner .col-6:nth-child(1) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  main .leasing-partner .col-6:nth-child(2) {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  main .leasing-partner .col-6:nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    position: relative;
+  }
+  main .leasing-partner .col-6:nth-child(3) img {
+    position: absolute;
+    top: -35px;
+    left: 40px;
+    height: 96px;
+  }
+  main .leasing-partner .col-6:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main .leasing-partner .col-6:nth-child(5) {
+    position: relative;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  main .leasing-partner .col-6:nth-child(5) img {
+    position: absolute;
+    height: 96px;
+    left: 50px;
+    top: -10px;
+  }
+  main .leasing-partner .col-6:nth-child(6) {
+    position: relative;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .leasing-partner .col-6:nth-child(6) img {
+    height: 64px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+  }
+  main .slider .slider-card {
+    position: relative;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    font-size: 12px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 10px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-size: 10px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 270px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 150px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .card-home form .card-input-home {
+    position: static;
+    width: 50px;
+    height: 50px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
+  }
+  main .card-home form .card-input-home img {
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  main .card-home form p {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  main ul {
+    padding-left: 0px;
+  }
+  main ul li {
+    font-size: 14px;
+  }
+  main ul li img {
+    height: 14px;
+  }
+  main .btn-action .btn-custom {
+    font-size: 16px !important;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  main .dataPengalaman h4 {
+    font-size: 20px;
+  }
+  main .dataPengalaman img {
+    height: 44px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 32px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 100px;
+    width: 200px;
+    margin: 10px auto;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni h4 {
+    text-align: center !important;
+    margin-bottom: 30px;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+    padding: 12px 0px 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 14px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    white-space: normal;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 0px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 14px !important;
+    padding: 5px 0px 0px 0px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 150px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 5px 0px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: start;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header nav .waNav-mobile-display a img {
+    height: 16px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    font-size: 10px;
+    display: inline;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .list-display-m {
+    display: none;
+  }
+  main .list-display-d {
+    display: block;
+  }
+  main .banner-top .jumbotron {
+    height: 700px;
+  }
+  main .banner-top .jumbotron p span {
+    display: inline;
+  }
+  main .banner-top .jumbotron h3 {
+    margin-top: 100px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    font-size: 16px;
+  }
+  main .banner-top .jumbotron img {
+    margin-top: 100px;
+    height: 250px;
+  }
+  main #accordion .card-header h5 .btn {
+    font-size: 14px !important;
+  }
+  main #accordion .card-header .card-body {
+    font-size: 12px !important;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    font-size: 12px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 10px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    font-size: 10px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 270px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 250px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .leasing-partner .col-6:nth-child(1) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  main .leasing-partner .col-6:nth-child(2) {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  main .leasing-partner .col-6:nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    position: static;
+  }
+  main .leasing-partner .col-6:nth-child(3) img {
+    position: static;
+    top: -35px;
+    left: 40px;
+    height: 96px;
+  }
+  main .leasing-partner .col-6:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main .leasing-partner .col-6:nth-child(5) {
+    position: static;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  main .leasing-partner .col-6:nth-child(5) img {
+    position: static;
+    height: 96px;
+    left: 50px;
+    top: -10px;
+  }
+  main .leasing-partner .col-6:nth-child(6) {
+    position: static;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  main .leasing-partner .col-6:nth-child(6) img {
+    height: 64px;
+    position: static;
+    top: -10px;
+    left: 10px;
+  }
+  main .card-home form .card-input-home {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    width: 50px;
+    height: 50px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
+  }
+  main .card-home form .card-input-home img {
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  main .card-home form p {
+    margin-left: 0px;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  main .dataPengalaman h4 {
+    font-size: 20px;
+  }
+  main .dataPengalaman img {
+    height: 40px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 30px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 100px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 10px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header nav .waNav-mobile-display a img {
+    height: 22px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    display: inline;
+    font-size: 14px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .banner-top .jumbotron {
+    height: 450px;
+  }
+  main .banner-top .jumbotron h3 {
+    margin-top: 50px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -80px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -35px;
+    margin-left: 10px;
+    height: 50px;
+  }
+  main .banner-top .jumbotron img {
+    margin-top: 50px;
+    height: 200px;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    font-size: 10px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 8px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-size: 8px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 210px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 200px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .card-home form .card-input-home {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    width: 50px;
+    height: 50px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
+  }
+  main .card-home form .card-input-home img {
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  main .card-home form p {
+    margin-left: 0px;
+  }
+  main ul li {
+    font-size: 14px;
+  }
+  main ul li img {
+    height: 14px;
+  }
+  main .btn-action .btn-custom {
+    font-size: 14px !important;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  main .dataPengalaman h4 {
+    font-size: 20px;
+  }
+  main .dataPengalaman img {
+    height: 40px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 30px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 100px;
+    width: 130px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 10px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 32px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 10px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas h3 {
+    font-weight: 400;
+  }
+  main .pengawas img {
+    height: 44px;
+  }
+  main .pengawas .ojk-img {
+    height: 98px;
+    margin-top: -10px;
+  }
+  main .pengawas .appi-img {
+    margin-top: 30px;
+    height: 30px;
+  }
+  main .pengawas .infobank-img {
+    margin-top: 3px;
+    height: 66px;
+  }
+  main .pengawas .investor-img {
+    height: 30px;
+    margin-top: 26px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 16px;
+  }
+  header nav .waNav-desktop-display a img {
+    height: 22px;
+  }
+  header nav .waNav-desktop-display a .display-none {
+    display: inline;
+    font-size: 14px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  main .banner-top .jumbotron {
+    height: 500px;
+  }
+  main .banner-top .jumbotron h3 {
+    margin-top: 100px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -50px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -40px;
+    margin-left: 10px;
+    height: 64px;
+  }
+  main .banner-top .jumbotron img {
+    margin-top: 100px;
+    height: 260px;
+  }
+  main .slider .slider-card {
+    position: relative;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: white;
+    width: 270px;
+    font-size: 18px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 10px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    font-size: 14px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 320px;
+    left: 70px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 270px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 300px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .leasing-partner .img-fluid {
+    height: 64px;
+  }
+  main .card-home {
+    padding: 50px;
+    background: #012756;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  main .card-home form .card-input-home {
+    color: black;
+    background: white;
+    width: 100px;
+    height: 75px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    position: relative;
+    right: -20px;
+    width: 80px;
+    height: 80px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
+  }
+  main .card-home form .card-input-home img {
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  main .card-home form p {
+    text-align: center;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+  main ul li {
+    font-size: 16px;
+  }
+  main ul li img {
+    height: 16px;
+  }
+  main .btn-action .btn-custom {
+    font-size: 16px !important;
+  }
+  main .btn-custom {
+    background: #F5B51F;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  main .btn-custom:hover {
+    background: #cc971d;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+  }
+  main .dataPengalaman .jumbotron {
+    background-image: url("../../image/background.jpg");
+  }
+  main .dataPengalaman img {
+    height: 64px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 44px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 200px;
+    width: 180px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 16px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 16px !important;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 14px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas h3 {
+    font-weight: 400;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
+  main .pengawas .ojk-img {
+    height: 118px;
+    margin-top: -10px;
+  }
+  main .pengawas .appi-img {
+    margin-top: 30px;
+    height: 40px;
+  }
+  main .pengawas .infobank-img {
+    margin-top: -3px;
+    height: 86px;
+  }
+  main .pengawas .investor-img {
+    height: 40px;
+    margin-top: 26px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header nav {
+    font-size: 18px;
+  }
+  header nav .navbar-brand {
+    font-size: 30px;
+  }
+  header nav .waNav-desktop-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 16px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main {
+    margin-bottom: 0px;
+  }
+  main .banner-top .jumbotron {
+    height: 600px;
+    position: relative;
+  }
+  main .banner-top .jumbotron h3 {
+    margin-top: 140px;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -50px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -40px;
+    margin-left: 10px;
+    height: 64px;
+  }
+  main .banner-top .jumbotron img {
+    margin-top: 100px;
+    height: 300px;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 200px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 400px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .pengawas h3 {
+    font-weight: 400;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
+  main .pengawas .ojk-img {
+    height: 128px;
+    margin-top: -10px;
+  }
+  main .pengawas .appi-img {
+    margin-top: 30px;
+    height: 50px;
+  }
+  main .pengawas .infobank-img {
+    margin-top: -3px;
+    height: 96px;
+  }
+  main .pengawas .investor-img {
+    height: 50px;
+    margin-top: 26px;
+  }
+  footer .logo {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  footer .contactCorporate {
+    font-size: 14px;
+  }
+  footer .emailCorporate {
+    font-size: 14px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

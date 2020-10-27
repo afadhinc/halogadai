@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+
+$font-primary: 'Poppins', sans-serif
+$color-primary: #012756
+$color-navigation: #03071E
+$color-anchor-hover: #F5B51F
+
+body
+  font-family: $font-primary
+
+header
+  nav
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2)
+    .navbar-brand
+      color: $color-primary !important
+      font-family: $font-primary
+      font-size: 30px
+      font-weight: 600
+
+    .collapse
+      .navbar-nav
+        a
+          color: $color-navigation !important
+          font-weight: 500
+
+        a:hover
+          color: $color-anchor-hover !important
+
+        .active
+          color: $color-anchor-hover !important
+
+    .waNav-desktop-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+
+      a:hover
+        text-decoration: none
+
+    .waNav-mobile-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+
+      a:hover
+        text-decoration: none
+
+  .jumbotron
+    margin-top: 70px
+    height: 300px
+    background: $color-primary
+    color: #ffffff
+    text-align: center
+    display: flex
+    align-items: center
+
+    .display-4
+      font-size: 30px
+      text-transform: uppercase
+      font-weight: 600
+
+main
+  .container
+    .form-title
+      justify-content: center
+      margin-top: 98px
+      font-size: 24px
+      font-weight: bold
+      display: flex
+      align-items: center
+      letter-spacing: 2px
+      margin-bottom: 10px
+
+      span
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        margin-top: 10px
+
+        img
+          height: 24px
+
+    form
+      margin: 87px 0px
+
+      .form-group
+        display: flex
+        justify-content: center
+        label
+          margin: auto 0px
+          margin-right: 20px
+          flex: 20%
+
+        input
+          flex: 80%
+
+        textarea
+          flex: 80%
+        select
+          flex: 80%
+
+      .form-check
+        display: flex
+        margin-left: 200px
+        position: relative
+
+        label
+          margin-left: 10px
+
+        input
+
+      button
+        background: $color-anchor-hover
+        border: none
+
+      button:hover
+        background: #cc971d
+
+footer
+  background: $color-primary
+  color: #ffffff
+  min-height: 230px
+  display: flex
+  align-items: center
+
+  .logo
+    font-size: 26px
+    color: $color-anchor-hover
+    font-weight: 500
+    letter-spacing: 2px
+
+  .corporate
+    font-size: 14px
+    font-weight: 500
+
+  .alamatCorporate
+    margin-top: 15px
+    font-size: 14px
+
+  .contactCorporate
+    font-size: 14px
+
+  .emailCorporate
+    font-size: 14px
+
+  .copyright
+    position: absolute
+    bottom: 0
+
+@media screen and ( min-width: 0px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        // font-size: 25px
+        font-size: 20px
+        margin-right: 3px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: 0px
+        margin-right: 8px
+        a
+          padding: 5px 10px
+          font-size: 14px
+          img
+            height: 16px
+          .display-none
+            font-size: 12px !important
+            display: inline
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+  main
+    .container
+      .title-persyaratan
+        font-size: 20px
+        font-weight: 600
+
+      p
+        font-size: 16px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: start
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 576px  )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+          img
+            height: 16px
+          .display-none
+            font-size: 10px
+            display: inline
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 768px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 992px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: flex
+        align-items: center
+        a
+          font-size: 16px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    .container
+      .title-persyaratan
+        font-size: 24px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 1200px )
+  header
+    nav
+      font-size: 18px
+
+      .navbar-brand
+        font-size: 30px
+      .waNav-desktop-display
+        display: flex
+        align-items: center
+        a
+          font-size: 16px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 26px
+      margin-top: 20px
+
+    .corporate
+      font-size: 14px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 14px
+
+    .contactCorporate
+      font-size: 14px
+
+    .emailCorporate
+      font-size: 14px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 14px

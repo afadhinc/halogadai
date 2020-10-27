@@ -1,0 +1,1978 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
+$font-primary: 'Poppins', sans-serif
+$color-primary: #012756
+$color-navigation: #03071E
+$color-anchor-hover: #F5B51F
+$font-body: 'Open Sans', sans-serif
+
+body
+  font-family: $font-primary
+
+header
+  nav
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2)
+    .navbar-brand
+      color: $color-primary !important
+      font-family: $font-primary
+      font-size: 30px
+      font-weight: 600
+
+    .collapse
+      .navbar-nav
+        a
+          color: $color-navigation !important
+          font-weight: 500
+
+        a:hover
+          color: $color-anchor-hover !important
+
+        .active
+          color: $color-anchor-hover !important
+
+    .waNav-desktop-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+        .display-none
+          display: none
+
+      a:hover
+        text-decoration: none
+
+    .waNav-mobile-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+        .display-none
+          display: none
+
+      a:hover
+        text-decoration: none
+
+  .jumbotron
+    margin-top: 70px
+    height: 300px
+    background: $color-primary
+    color: #ffffff
+    text-align: center
+    display: flex
+    align-items: center
+
+    .display-4
+      font-size: 30px
+      text-transform: uppercase
+      font-weight: 600
+
+main
+  margin-bottom: 100px
+
+  .banner-top
+
+    color: #ffffff
+    font-family: $font-body
+    .jumbotron
+      margin-top: -100px
+      background-image: url("../../image/header.png")
+      height: 600px
+      background-size: cover
+      position: relative
+
+      h3
+        margin-top: 200px
+        text-transform: uppercase
+
+      p
+        color: $color-anchor-hover
+        width: 100%
+
+      .paragraph-mitra
+        position: absolute
+        bottom: -50px
+        margin-top: 10px
+        color: #ffffff
+
+        img
+          position: absolute
+          bottom: -40px
+          margin-left: 10px
+          height: 64px
+
+      img
+        margin-top: 200px
+        height: 300px
+
+      .btn-custom
+        color: black
+
+  .slider
+    .slider-card
+      position: relative
+      h3
+        position: absolute
+        top: 100px
+        left: 70px
+        color: white
+        width: 270px
+        font-size: 18px
+
+      p
+        position: absolute
+        top: 150px
+        left: 70px
+        color: $color-anchor-hover
+        width: 270px
+        font-size: 10px
+
+      .btn-custom
+        position: absolute
+        top: 200px
+        left: 70px
+        font-size: 14px !important
+
+      .mitra
+        position: absolute
+        top: 320px
+        left: 70px
+
+        img
+          height: 32px
+          top: -10px
+          left: 270px
+          position: absolute
+
+  .img-fluid
+    border-radius: 20px
+    margin: 20px 0px
+    height: 350px
+    transition: .5s
+
+  .title-section
+    font-weight: bold
+  .second-title-section
+    font-weight: normal
+  .leasing-partner
+    img
+      height: 64px
+
+    .kreditplus-img
+      height: 50px !important
+  .card-home
+    padding: 50px
+    background: $color-primary
+    border-radius: 20px
+    color: #ffffff
+    form
+      .card-input-home
+        color: black
+        background: white
+        width: 100px
+        justify-content: end
+        position: relative
+        right: -50px
+
+        img
+          height: 64px
+          margin-left: 20px
+
+      p
+        text-align: center
+        margin-left: 50px
+        font-size: 14px
+
+  ul
+    list-style: none
+
+  .btn-custom
+    background: #F5B51F
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+
+  .btn-custom:hover
+    background: #cc971d
+
+  .dataPengalaman
+    color: #ffffff
+    .jumbotron
+      background-image: url('../../image/background.jpg')
+    img
+      height: 64px
+
+    .pengguna
+      font-size: 44px
+
+  .dataPengajuanTanpaSurvey
+    color: #ffffff
+    margin-top: 40px
+    .jumbotron
+      overflow: hidden
+      margin-top: -40px
+      background: $color-primary
+      .btn-custom
+        color: $color-anchor-hover
+        background: $color-primary
+        border: 1px solid $color-anchor-hover
+
+      .btn-custom:hover
+        color: $color-primary
+        background: $color-anchor-hover
+        border: 1px solid $color-primary
+
+  .dataPengajuanRules
+    margin-top: -40px
+    .jumbotron
+      background: $color-anchor-hover
+      h4
+        line-height: 1.8
+      .card-rules
+        background: #DCDBDA
+        padding: 20px
+        border-radius: 20px
+        box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+        min-height: 200px
+
+        .rulesImage
+        .rulesTitle
+          font-size: 14px
+          font-weight: 600
+
+        .rulesDesc
+          font-size: 12px
+
+        img
+          height: 64px
+          margin-bottom: 20px
+
+      .btn-custom
+        background: #707070
+        color: $color-anchor-hover
+
+      .btn-custom:hover
+        background: $color-anchor-hover
+        color: #707070
+        border: 1px solid #707070
+
+  .testimoni
+    .card-testimoni
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+      padding: 10px
+      border-radius: 10px
+      box-sizing: border-box
+      .slick-initialized .slick-slide
+        display: flex
+      p
+        font-size: 16px
+      .profile-testimoni
+        img
+          height: 64px
+          width: 64px
+          margin: 0px auto 10px
+
+        .profile-testimoni-name
+          font-size: 16px
+
+        .profile-testimoni-usaha
+          font-size: 10px
+
+        .profile-testimoni-alamat
+          font-size: 10px
+          font-style: italic
+
+      .testimonial
+        font-size: 12px
+
+  .title-faq
+    font-weight: 600
+  #accordion
+    .card
+      border: none
+
+      .card-header
+        border: none
+        background: none
+        padding-bottom: 0px
+
+        h5
+          .btn
+            padding-bottom: 0px
+          button
+            color: black !important
+            font-weight: 600
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+            width: 100%
+            text-align: left
+            padding-left: 20px
+
+            i
+              transform: rotate(-90deg)
+              transition: 1s
+              margin: 0 20px 0 -20px
+
+          .collapsed
+            i
+              transform: rotate(0deg)
+              transition: .5s
+
+          .btn-link
+            text-decoration: none
+
+          button:hover
+            text-decoration: none
+
+      .card-body
+        font-size: 12px
+        padding: 5px 0px 0px 30px
+
+  .card-sale
+    margin-top: 50px
+    background: $color-anchor-hover
+    padding: 20px
+    color: $color-primary
+    border-radius: 30px
+    img
+      height: 200px
+
+    .promo-title
+      font-size: 24px
+      color: $font-primary !important
+      font-weight: 600
+    .promo-tawaran
+      font-size: 14px
+      color: $font-primary !important
+    .btn-custom
+      margin: 10px 0px
+      width: 100%
+      background: $color-primary
+      color: $color-anchor-hover
+
+    .btn-custom:hover
+      background: $color-anchor-hover
+      border: 1px solid $color-primary
+      color: $color-primary
+    .promo-tawaran-syarat
+      font-size: 12px
+
+  .pengawas
+    h3
+      font-weight: 400
+    img
+      height: 64px
+
+    .ojk-img
+      height: 128px
+      margin-top: -10px
+
+    .appi-img
+      margin-top: 30px
+      height: 50px
+
+    .infobank-img
+      margin-top: -3px
+      height: 96px
+
+    .investor-img
+      height: 50px
+      margin-top: 26px
+footer
+  background: $color-primary
+  color: #ffffff
+  min-height: 230px
+  display: flex
+  align-items: center
+
+  .logo
+    font-size: 26px
+    color: $color-anchor-hover
+    font-weight: 500
+    letter-spacing: 2px
+
+  .corporate
+    font-size: 14px
+    font-weight: 500
+
+  .alamatCorporate
+    margin-top: 15px
+    font-size: 14px
+
+  .contactCorporate
+    font-size: 14px
+
+  .emailCorporate
+    font-size: 14px
+
+  .copyright
+    position: absolute
+    bottom: 0
+
+@media screen and ( min-width: 0px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        // font-size: 25px
+        font-size: 20px
+        margin-right: 3px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: 0px
+        margin-right: 8px
+        a
+          padding: 5px 10px
+          font-size: 14px
+          img
+            height: 16px
+          .display-none
+            font-size: 12px !important
+            display: inline
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    margin-top: 120px
+    margin-bottom: 0px
+    .list-display-d
+      display: none
+
+    .banner-top
+      .jumbotron
+
+        h3
+          margin-top: 70px
+
+        p
+          span
+            display: block
+            margin-bottom: 30px
+
+        .paragraph-mitra
+          font-size: 12px
+          position: absolute
+          width: 80%
+          bottom: -70px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -25px
+            margin-left: 10px
+            height: 30px
+
+        img
+          margin-top: 90px
+          height: 170px
+    .title-section
+      font-weight: bold
+    .second-title-section
+      font-weight: normal
+
+    .leasing-partner
+      .col-6:nth-child(1)
+        order: 4
+      .col-6:nth-child(2)
+        order: 6
+      .col-6:nth-child(3)
+        order: 3
+        position: relative
+        img
+          position: absolute
+          top: -35px
+          left: 40px
+          height: 96px
+      .col-6:nth-child(4)
+        order: 2
+      .col-6:nth-child(5)
+        position: relative
+        order: 5
+        img
+          position: absolute
+          height: 96px
+          left: 50px
+          top: -10px
+
+      .col-6:nth-child(6)
+        position: relative
+        order: 1
+        img
+          height: 64px
+          position: absolute
+          top: -10px
+          left: 10px
+
+    .slider
+      .slider-card
+        position: relative
+        h3
+          position: absolute
+          top: 60px
+          left: 50px
+          color: white
+          width: 200px
+          font-size: 12px
+
+        p
+          position: absolute
+          top: 100px
+          left: 50px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 10px
+
+        .btn-custom
+          position: absolute
+          top: 140px
+          left: 50px
+          font-size: 10px !important
+
+        .mitra
+          position: absolute
+          top: 180px
+          left: 50px
+
+          img
+            height: 32px
+            top: -10px
+            left: 270px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 150px
+      transition: .5s
+
+    .card-home
+
+      form
+        .card-input-home
+          position: static
+          width: 50px
+          height: 50px
+          label
+
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
+          img
+            height: 50px
+            margin-top: 0px
+            margin-left: 0px
+
+        p
+          text-align: center
+          font-size: 10px
+          margin-top: 10px
+          margin-left: 0px
+
+    ul
+      padding-left: 0px
+      li
+        font-size: 14px
+        img
+          height: 14px
+
+    .btn-action
+      .btn-custom
+        font-size: 16px !important
+
+    .dataPengalaman
+      color: #ffffff
+      font-size: 16px
+      h4
+        font-size: 20px
+      img
+        height: 44px
+
+      .pengguna
+        font-size: 32px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        h4
+          font-size: 20px
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        h4
+          font-size: 20px
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          margin: 10px 0px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 100px
+          width: 200px
+          margin: 10px auto
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 40px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      h4
+        text-align: center !important
+        margin-bottom: 30px
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        width: 100%
+
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+          padding: 12px 0px 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 14px
+
+            .btn-link
+
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+              white-space: normal
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 0px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 14px !important
+          padding: 5px 0px 0px 0px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 150px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      img
+        height: 64px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+      font-weight: 600
+      padding: 5px 0px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: start
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 576px  )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+          img
+            height: 16px
+          .display-none
+            font-size: 10px
+            display: inline
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    .list-display-m
+      display: none
+    .list-display-d
+      display: block
+    .banner-top
+      .jumbotron
+        height: 700px
+
+        p
+          span
+            display: inline
+
+        h3
+          margin-top: 100px
+
+        .paragraph-mitra
+          font-size: 16px
+
+        img
+          margin-top: 100px
+          height: 250px
+    #accordion
+      .card-header
+        h5
+          .btn
+            font-size: 14px !important
+        .card-body
+          font-size: 12px !important
+  main
+    .slider
+      .slider-card
+        h3
+          position: absolute
+          top: 80px
+          left: 50px
+          color: white
+          width: 200px
+          font-size: 12px
+
+        p
+          position: absolute
+          top: 120px
+          left: 50px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 10px
+
+        .btn-custom
+          position: absolute
+          top: 160px
+          left: 50px
+          font-size: 10px !important
+
+        .mitra
+          position: absolute
+          top: 200px
+          left: 50px
+
+          img
+            height: 32px
+            top: -10px
+            left: 270px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 250px
+      transition: .5s
+
+    .leasing-partner
+      .col-6:nth-child(1)
+        order: 4
+      .col-6:nth-child(2)
+        order: 6
+      .col-6:nth-child(3)
+        order: 3
+        position: static
+        img
+          position: static
+          top: -35px
+          left: 40px
+          height: 96px
+      .col-6:nth-child(4)
+        order: 2
+      .col-6:nth-child(5)
+        position: static
+        order: 5
+        img
+          position: static
+          height: 96px
+          left: 50px
+          top: -10px
+
+      .col-6:nth-child(6)
+        position: static
+        order: 1
+        img
+          height: 64px
+          position: static
+          top: -10px
+          left: 10px
+
+    .card-home
+
+      form
+        .card-input-home
+          margin-left: auto
+          margin-right: auto
+          position: static
+          width: 50px
+          height: 50px
+          label
+
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
+          img
+            height: 50px
+            margin-top: 0px
+            margin-left: 0px
+        p
+          margin-left: 0px
+
+    .dataPengalaman
+      color: #ffffff
+      font-size: 16px
+      h4
+        font-size: 20px
+      img
+        height: 40px
+
+      .pengguna
+        font-size: 30px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        h4
+          font-size: 20px
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        h4
+          font-size: 20px
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          margin: 10px 0px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 100px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 12px
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 10px !important
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      img
+        height: 64px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 768px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    .banner-top
+      .jumbotron
+        height: 450px
+
+        h3
+          margin-top: 50px
+
+        .paragraph-mitra
+          position: absolute
+          bottom: -80px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -35px
+            margin-left: 10px
+            height: 50px
+
+        img
+          margin-top: 50px
+          height: 200px
+    .slider
+      .slider-card
+        h3
+          position: absolute
+          top: 60px
+          left: 50px
+          color: white
+          width: 200px
+          font-size: 10px
+
+        p
+          position: absolute
+          top: 100px
+          left: 50px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 8px
+
+        .btn-custom
+          position: absolute
+          top: 140px
+          left: 50px
+          font-size: 8px !important
+
+        .mitra
+          position: absolute
+          top: 180px
+          left: 50px
+
+          img
+            height: 32px
+            top: -10px
+            left: 210px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 200px
+      transition: .5s
+
+    .card-home
+
+      form
+        .card-input-home
+          margin-left: auto
+          margin-right: auto
+          position: static
+          width: 50px
+          height: 50px
+          label
+
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
+          img
+            height: 50px
+            margin-top: 0px
+            margin-left: 0px
+
+        p
+          margin-left: 0px
+
+    ul
+      li
+
+        font-size: 14px
+        img
+          height: 14px
+
+    .btn-action
+      .btn-custom
+        font-size: 14px !important
+
+    .dataPengalaman
+      color: #ffffff
+      font-size: 16px
+      h4
+        font-size: 20px
+      img
+        height: 40px
+
+      .pengguna
+        font-size: 30px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        h4
+          font-size: 20px
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        h4
+          font-size: 20px
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          margin: 10px 0px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 100px
+          width: 130px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 12px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 10px
+
+          img
+            height: 32px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 12px
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 10px !important
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      h3
+        font-weight: 400
+      img
+        height: 44px
+
+      .ojk-img
+        height: 98px
+        margin-top: -10px
+
+      .appi-img
+        margin-top: 30px
+        height: 30px
+
+      .infobank-img
+        margin-top: 3px
+        height: 66px
+
+      .investor-img
+        height: 30px
+        margin-top: 26px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 992px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: flex
+        align-items: center
+        a
+          font-size: 16px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    margin-top: 120px
+    margin-bottom: 100px
+    .banner-top
+      .jumbotron
+        height: 500px
+
+        h3
+          margin-top: 100px
+
+        .paragraph-mitra
+          position: absolute
+          bottom: -50px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -40px
+            margin-left: 10px
+            height: 64px
+
+        img
+          margin-top: 100px
+          height: 260px
+    .slider
+      .slider-card
+        position: relative
+        h3
+          position: absolute
+          top: 100px
+          left: 70px
+          color: white
+          width: 270px
+          font-size: 18px
+
+        p
+          position: absolute
+          top: 150px
+          left: 70px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 10px
+
+        .btn-custom
+          position: absolute
+          top: 200px
+          left: 70px
+          font-size: 14px !important
+
+        .mitra
+          position: absolute
+          top: 320px
+          left: 70px
+
+          img
+            height: 32px
+            top: -10px
+            left: 270px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 300px
+      transition: .5s
+
+    .leasing-partner
+      .img-fluid
+        height: 64px
+    .card-home
+      padding: 50px
+      background: $color-primary
+      border-radius: 20px
+      color: #ffffff
+      form
+        .card-input-home
+          color: black
+          background: white
+          width: 100px
+          height: 75px
+          justify-content: end
+          position: relative
+          right: -20px
+          width: 80px
+          height: 80px
+          label
+
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
+          img
+            height: 80px
+            margin-top: 0px
+            margin-left: 0px
+
+        p
+          text-align: center
+          margin-left: 40px
+          font-size: 12px
+
+    ul
+      li
+
+        font-size: 16px
+        img
+          height: 16px
+
+    .btn-action
+      .btn-custom
+        font-size: 16px !important
+
+    .btn-custom
+      background: #F5B51F
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+
+    .btn-custom:hover
+      background: #cc971d
+
+    .dataPengalaman
+      color: #ffffff
+      .jumbotron
+        background-image: url('../../image/background.jpg')
+      img
+        height: 64px
+
+      .pengguna
+        font-size: 44px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 200px
+          width: 180px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 40px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 16px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 16px !important
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 14px !important
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      h3
+        font-weight: 400
+      img
+        height: 64px
+
+      .ojk-img
+        height: 118px
+        margin-top: -10px
+
+      .appi-img
+        margin-top: 30px
+        height: 40px
+
+      .infobank-img
+        margin-top: -3px
+        height: 86px
+
+      .investor-img
+        height: 40px
+        margin-top: 26px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 1200px )
+  header
+    nav
+      font-size: 18px
+
+      .navbar-brand
+        font-size: 30px
+      .waNav-desktop-display
+        display: flex
+        align-items: center
+        a
+          font-size: 16px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    margin-bottom: 0px
+    .banner-top
+      .jumbotron
+        height: 600px
+        position: relative
+        h3
+          margin-top: 140px
+          font-weight: 600
+          letter-spacing: .5px
+
+        .paragraph-mitra
+          position: absolute
+          bottom: -50px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -40px
+            margin-left: 10px
+            height: 64px
+
+        img
+          margin-top: 100px
+          height: 300px
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 200px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 400px
+      transition: .5s
+
+    .pengawas
+      h3
+        font-weight: 400
+      img
+        height: 64px
+
+      .ojk-img
+        height: 128px
+        margin-top: -10px
+
+      .appi-img
+        margin-top: 30px
+        height: 50px
+
+      .infobank-img
+        margin-top: -3px
+        height: 96px
+
+      .investor-img
+        height: 50px
+        margin-top: 26px
+
+  footer
+    .logo
+      font-size: 24px
+      margin-top: 20px
+
+    .corporate
+      font-size: 14px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 14px
+
+    .contactCorporate
+      font-size: 14px
+
+    .emailCorporate
+      font-size: 14px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 14px
