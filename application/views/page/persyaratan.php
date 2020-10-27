@@ -11,20 +11,21 @@
 
     <main style="margin-top: 0px">
       <div class="container">
-        <div class="row text-center">
+      <?php foreach ($dataAboutUs->result() as $about) {?>
+
+                      <div class="row text-center">
           <div class="col-md-12">
-            <h4 class="title-persyaratan mt-5 mb-4 ">Persyaratan Pinjaman Dana Gadai BPKB Mobil / Motor</h4>
+            <h4 class="title-persyaratan mt-5 mb-4 "><?php echo $about->judul ?></h4>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-md-10">
-          <?php foreach ($dataAboutUs->result() as $about) {?>
-                      <h1><?php echo $about->judul ?></h1>
-                      <p><?php echo $about->body ?></p>
-
-                      <?php }?>
+          <?php echo $about->body ?>
           </div>
         </div>
+
+                      <?php }?>
+
       </div>
     </main>
 
