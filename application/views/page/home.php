@@ -22,23 +22,23 @@
 <!--// Content //-->
 <main>
 
-  <!--// Page Section1 //-->
- <?php $this->load->view("page/home-didyouknow");?>
-  <!--// Page Section1 //-->
+    <!--// Page Section1 //-->
+    <?php $this->load->view("page/home-didyouknow");?>
+    <!--// Page Section1 //-->
 
 
 
-  <!--// Page Section3 //-->
-  <?php $this->load->view("page/home-blog");?>
-  <!--// Page Section3 //-->
+    <!--// Page Section3 //-->
+    <?php $this->load->view("page/home-blog");?>
+    <!--// Page Section3 //-->
 
-   <!--// Page Section2 //-->
-  <?php $this->load->view("page/home-explore");?>
-  <!--// Page Section2 //-->
+    <!--// Page Section2 //-->
+    <?php $this->load->view("page/home-explore");?>
+    <!--// Page Section2 //-->
 
-  <!--// Page Section4 //-->
-  <?php $this->load->view("page/home-organizer");?>
-  <!--// Page Section4 //-->
+    <!--// Page Section4 //-->
+    <?php $this->load->view("page/home-organizer");?>
+    <!--// Page Section4 //-->
 
 
 
