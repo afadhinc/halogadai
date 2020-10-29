@@ -1,8 +1,7 @@
 
 
   <section id="hitungform">
-	<div class="container">
-
+	<div class="container" id="hitung">
 
   <div class="row justify-content-center">
           <div class="col-md-8 col-sm-12">

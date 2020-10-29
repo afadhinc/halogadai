@@ -1,11 +1,11 @@
 <div class="container">
 <div class="row text-center justify-content-center mt-5">
           <div class="col-md-6">
-            <h5 class="title-section">Mengapa harus di Halogadai.com</h5>
+            <h5 class="title-section">Mengapa harus di Halogadai.com ?</h5>
           </div>
         </div>
         <div class="row justify-content-center mt-2">
-          <div class="col-md-8 col-sm-12 col-12">
+          <div class="col-md-5 col-sm-12">
             <ul>
               <li class="mt-2">
                 <img src="./src/image/check.png" class="mr-3" alt="" />Dana Cair
@@ -55,8 +55,8 @@
         </div>
         <div class="row text-center justify-content-center mb-5 btn-action">
           <div class="col-md-6 col-sm-12 col-12 mb-3 mt-3">
-            <button class="btn btn-custom mr-md-2">Hitung Pinjaman</button>
-            <button class="btn btn-custom ml-md-2">Ajukan Sekarang</button>
+            <a href="#hitung" class="btn btn-custom mr-md-2" style="color: black;">Hitung Pinjaman</a>
+            <a href="<?php echo base_url() ?>home/ajukan" class="btn btn-custom ml-md-2" style="color: black;">Ajukan Sekarang</a>
           </div>
         </div>
 </div>

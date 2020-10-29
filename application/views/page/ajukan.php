@@ -15,7 +15,7 @@
         <div class="row justify-content-center text-center">
           <div class="col-md-12">
             <div class="form-title">
-              Isi Form dibawah ini atau Hubung Kami di
+              Isi Form dibawah ini atau Hubungi Kami di
               <span
                 ><img src="<?php echo base_url(); ?>/src/image/whatsapp-logo-png-2261.png" alt="" />
                 082321760690</span
@@ -31,17 +31,18 @@
           <div class="col-md-10">
             <form method="POST" enctype="multipart/form-data" action="<?php echo base_url() ?>Home/prosesTambah">
               <div class="form-group">
-                <label for="fullName">Nama Lengkap</label>
+                <!-- <label for="fullName">Nama Lengkap</label> -->
                 <input
                   type="text"
                   class="form-control"
                   id="fullName"
                   aria-describedby="fullName"
                   name="nama" required
+                  placeholder="Nama lengkap"
                 />
               </div>
               <div class="form-group">
-                <label for="noWA">HP (WhatsApp)</label>
+                <!-- <label for="noWA">HP (WhatsApp)</label> -->
                 <input
                   type="text"
                   class="form-control"
@@ -49,10 +50,11 @@
                   required name="hp"
                   aria-describedby="noWA"
                   maxlength="13"
+                  placeholder="Nomor Whatsapp"
                 />
               </div>
               <div class="form-group">
-                <label for="email">Email</label>
+                <!-- <label for="email">Email</label> -->
                 <input
                   type="email"
                   class="form-control"
@@ -60,14 +62,15 @@
                   name="email"
                   required
                   aria-describedby="email"
+                  placeholder="Email"
                 />
               </div>
               <div class="form-group">
-                <label for="alamat">Alamat</label>
-                <textarea name="alamat" class="form-control" id="alamat" rows="3"></textarea>
+                <!-- <label for="alamat">Alamat</label> -->
+                <textarea name="alamat" class="form-control" id="alamat" rows="3">Alamat lengkap</textarea>
               </div>
               <div class="form-group">
-                <label for="merekKendaraan">Merek Kendaraan</label>
+                <!-- <label for="merekKendaraan">Merek Kendaraan</label> -->
                 <input
                   type="text"
                   class="form-control"
@@ -79,7 +82,7 @@
                 />
               </div>
               <div class="form-group">
-                <label for="tipeKendaraan">Tipe Kendaraan</label>
+                <!-- <label for="tipeKendaraan">Tipe Kendaraan</label> -->
                 <input
                   type="text"
                   class="form-control"
@@ -91,7 +94,7 @@
                 />
               </div>
               <div class="form-group">
-                <label for="tahunKendaraan">Tahun Kendaraan</label>
+                <!-- <label for="tahunKendaraan">Tahun Kendaraan</label> -->
                 <input
                   type="number"
                   class="form-control"
@@ -102,14 +105,14 @@
                 />
               </div>
               <div class="form-group">
-                <label for="nilaiPinjaman">Nilai Pinjaman</label>
+                <!-- <label for="nilaiPinjaman">Nilai Pinjaman</label> -->
                 <input
                   type="number"
                   class="form-control"
                   name="nilai_pinjaman" id="currency-field"  pattern="^\Rp\d{1,3}(,\d{3})*(\.\d+)?Rp " value="" data-type="currency" placeholder="Rp"
                 />
               </div>
-              <div class="form-check">
+              <div style="margin-left: 20px; padding-bottom: 10px;">
                 <input
                   type="checkbox"
                   class="form-check-input"
@@ -122,7 +125,7 @@
                 >
               </div>
               <div class="form-group">
-                <label for="tenor">Tenor</label>
+                <!-- <label for="tenor">Tenor</label> -->
                 <select class="custom-select" id="inputGroupSelect04">
                   <option value="">Pilih Tenor</option>
                   <option value="6 Bulan">6 Bulan</value>
@@ -133,7 +136,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="tenor">BPKB atas nama</label>
+                <!-- <label for="tenor">BPKB atas nama</label> -->
                 <select class="custom-select" id="inputGroupSelect04" name="bpkb" required>
                   <option value="">Pilih BPKB</option>
 								 <option value="Sendiri/Pasangan">Sendiri/Pasangan</option>
@@ -141,7 +144,7 @@
                 </select>
               </div>
               <div class="form-group">
-                <label for="tenor">Leasing</label>
+                <!-- <label for="tenor">Leasing</label> -->
                 <select class="custom-select" name="id_leasing">
                   <option value="">Pilih Leasing</option>
 								<?php $data = $this->db->query("select * from  tbl_kategori_product order by nama_kategori asc");
@@ -153,7 +156,7 @@ foreach ($data->result() as $par) {?>
               </div>
               <div class="row justify-content-center text-center mt-5">
                 <div class="col-md-1">
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" class="btn btn-primary" style="color: black;">
                     Kirim Pengajuan
                   </button>
                 </div>

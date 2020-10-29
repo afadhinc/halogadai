@@ -11,11 +11,11 @@
 
 	<main style="margin-top: 0px">
       <div class="container">
-        <div class="row text-center">
+        <!-- <div class="row text-center">
           <div class="col-md-12">
             <h4 class="title-blog mt-5 mb-5">Our Lates Blog</h4>
           </div>
-        </div>
+        </div> -->
         <div class="row justify-content-center">
           <div class="col-md-10 col-11 col-sm-11 card-blog-top">
             <div class="autoplay">

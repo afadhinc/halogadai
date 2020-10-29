@@ -9,7 +9,7 @@
                   Leasing Pilihan - Dana Cair Tinggi -
                   <span>Bunga Mulai 0,7%</span>
                 </p>
-                <a href="" class="btn btn-custom">Hitung Sekarang</a>
+                <a href="#hitung" class="btn btn-custom">Hitung Sekarang</a>
                 <p class="paragraph-mitra">
                   Mitra Terdaftar dan Diawasi Otoritas Jasa Keuangan
                   <img
