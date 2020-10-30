@@ -16,8 +16,8 @@
              <div class="col-md-12">
                  <div class="form-title" style="margin-top: 5px">
                      Isi Form dibawah ini atau Hubungi Kami di
-                     <span><img src="<?php echo base_url(); ?>/src/image/whatsapp-logo-png-2261.png" alt="" />
-                         082321760690</span>
+                     <span><a href="https://wa.me/6282321760690?text=Hai,%20admin%20Halogadai%20saya%20mau%20tanya%20info%20Pinjaman" style="color: white;"><img src="<?php echo base_url(); ?>/src/image/whatsapp-logo-png-2261.png" alt="" />
+                             082321760690</a></span>
                  </div>
                  <p class="form-description">
                      Kami akan segera memproses pengajuan Anda secepatnya setelah Anda
