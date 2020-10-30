@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <h4 class="title-persyaratan mt-5 mb-4">Daftar Leasing</h4>
+                <h4 class="title-persyaratan mt-2 mb-4">Daftar Leasing</h4>
                 <p class="mb-5">
                     Berikut ini beberapa leasing/Perusahaan Multifinance yang menjadi
                     mitra Halogadai :
@@ -24,23 +24,23 @@
                 <div class="row">
 
                     <?php foreach ($data->result() as $leasing) {
-    $tamp = $leasing->gambar_kategori;
-    ?>
+                        $tamp = $leasing->gambar_kategori;
+                    ?>
 
-                    <div class="col-lg-4 col-sm-12 col-md-6">
-                        <div class="card-leasing">
-                            <div class="image-partner-leasing">
-                                <img src="<?php echo base_url(); ?>assets/img/product/<?php echo $tamp ?>" alt="" />
-                            </div>
-                            <!-- <div class="corporate-partner-leasing">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
+                            <div class="card-leasing">
+                                <div class="image-partner-leasing">
+                                    <img src="<?php echo base_url(); ?>assets/img/product/<?php echo $tamp ?>" alt="" />
+                                </div>
+                                <!-- <div class="corporate-partner-leasing">
                     <h5><?php echo $leasing->nama_kategori ?></h5>
                   </div> -->
-                            <div class="alamat-corporate-partner-leasing">
-                                <?php echo $leasing->body ?>
+                                <div class="alamat-corporate-partner-leasing">
+                                    <?php echo $leasing->body ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <?php }?>
+                    <?php } ?>
 
 
 

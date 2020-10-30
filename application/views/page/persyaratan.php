@@ -11,30 +11,31 @@
 
     <main style="margin-top: 0px">
         <div class="container">
-            <?php foreach ($dataAboutUs->result() as $about) {?>
+            <?php foreach ($dataAboutUs->result() as $about) { ?>
 
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h4 class="title-persyaratan mt-5 mb-4 "><?php echo $about->judul ?></h4>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h4 class="title-persyaratan mt-2 mb-4 "><?php echo $about->judul ?></h4>
+                    </div>
                 </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-md-10">
-                    <?php echo $about->body ?>
+                <div class="row mb-5">
+                    <div class="col-md-10">
+                        <?php echo $about->body ?>
+                    </div>
                 </div>
-            </div>
 
-            <?php }?>
+            <?php } ?>
 
         </div>
     </main>
 
     <!--// Page Section7 //-->
-    <?php $this->load->view("page/home-counter");?>
+    <?php $this->load->view("page/home-counter"); ?>
     <!--// Page Section7 //-->
 
     <!--// Page Section8 //-->
-    <?php //$this->load->view("page/home-client"); ?>
+    <?php //$this->load->view("page/home-client"); 
+    ?>
     <!--// Page Section8 //-->
 
     </div>

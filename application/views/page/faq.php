@@ -9,19 +9,19 @@
     </div>
 </header>
 
-<main style="margin-top: 0px;" class="pt-5 pb-5">
+<main style="margin-top: 0px;" class="pt-2 pb-5">
     <div class="container">
-        <?php foreach ($dataAboutUs->result() as $about) {?>
+        <?php foreach ($dataAboutUs->result() as $about) { ?>
 
 
-        <div class="row justify-content-center">
-            <div class="col-md-10">
-                <?php echo $about->body ?>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <?php echo $about->body ?>
+                </div>
             </div>
-        </div>
 
 
-        <?php }?>
+        <?php } ?>
 
 
     </div>
@@ -31,11 +31,12 @@
 
 
 <!--// Page Section7 //-->
-<?php $this->load->view("page/home-counter");?>
+<?php $this->load->view("page/home-counter"); ?>
 <!--// Page Section7 //-->
 
 <!--// Page Section8 //-->
-<?php //$this->load->view("page/home-client"); ?>
+<?php //$this->load->view("page/home-client"); 
+?>
 <!--// Page Section8 //-->
 
 </div>

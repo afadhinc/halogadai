@@ -37,7 +37,7 @@
 <div class="dataPengajuanTanpaSurvey text-center">
     <div class="jumbotron jumbotron-fluid">
         <h4 class="pl-3 pr-3">Mau Pengajuan Tanpa Survey ? Bisa</h4>
-        <button class="btn btn-custom mt-3">Hubungi Kami</button>
+        <a href="https://wa.me/6282321760690?text=Hai,%20admin%20Halogadai%20saya%20mau%20tanya%20info%20Pinjaman%20tanpa%20survey" class="btn btn-custom mt-3">Hubungi Kami</a href="https://wa.me/6282321760690?text=Hai,%20admin%20Halogadai%20saya%20mau%20tanya%20info%20Pinjaman%20tanpa%20survey">
     </div>
 </div>
 
@@ -100,8 +100,8 @@
             </div>
             <div class="row text-center justify-content-center mt-4">
                 <div class="col-md-10 col-sm-12 mt-3">
-                    <a class="btn btn-custom mr-md-3 mr-sm-3" href="#">Ajukan Sekarang</a>
-                    <a class="btn btn-custom ml-md-3 ml-sm-3" href="#">Cek Persyaratan</a>
+                    <a class="btn btn-custom mr-md-3 mr-sm-3" href="<?php echo base_url(); ?>home/ajukan">Ajukan Sekarang</a>
+                    <a class="btn btn-custom ml-md-3 ml-sm-3" href="<?php echo base_url(); ?>home/persyaratan">Cek Persyaratan</a>
                 </div>
             </div>
         </div>
@@ -119,8 +119,7 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4 col-sm-12 col-12">
                             <div class="profile-testimoni">
-                                <img src="<?php echo base_url(); ?>/src/image/Medina Zein-1.jpg"
-                                    class="rounded-circle mt-3" alt="" />
+                                <img src="<?php echo base_url(); ?>/src/image/Medina Zein-1.jpg" class="rounded-circle mt-3" alt="" />
                                 <div class="profile-testimoni-name">Bu Sofiyah</div>
                                 <div class="profile-testimoni-usaha">
                                     Owner Fia Bakery
@@ -144,8 +143,7 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4 col-sm-12 col-12">
                             <div class="profile-testimoni">
-                                <img src="<?php echo base_url(); ?>/src/image/rismono-sarlim_20161027_220948.jpg"
-                                    class="rounded-circle mt-3" alt="" />
+                                <img src="<?php echo base_url(); ?>/src/image/rismono-sarlim_20161027_220948.jpg" class="rounded-circle mt-3" alt="" />
                                 <div class="profile-testimoni-name">Hendrawan E.P.</div>
                                 <div class="profile-testimoni-usaha">Karyawan Swasta</div>
                                 <div class="profile-testimoni-alamat">Pekanbaru</div>
@@ -165,8 +163,7 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-md-4 col-sm-12 col-12">
                             <div class="profile-testimoni">
-                                <img src="<?php echo base_url(); ?>/src/image/0.jpg" class="rounded-circle mt-3"
-                                    alt="" />
+                                <img src="<?php echo base_url(); ?>/src/image/0.jpg" class="rounded-circle mt-3" alt="" />
                                 <div class="profile-testimoni-name">
                                     Pak Frans Wowerin
                                 </div>
@@ -208,8 +205,7 @@
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="false" aria-controls="collapseOne">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 <i class="fas fa-play"></i>
                                 Siapa halogadai.com ?
                             </button>
@@ -234,8 +230,7 @@
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <i class="fas fa-play"></i>
                                 Produk apa yang ditawarkan ?
                             </button>
@@ -259,8 +254,7 @@
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <i class="fas fa-play"></i>
                                 Persyaratan Pinjaman Dana yang harus disiapkan ?
                             </button>
@@ -284,8 +278,7 @@
                 <div class="card">
                     <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                                aria-expanded="false" aria-controls="collapseFour">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                 <i class="fas fa-play"></i>
                                 Bagaimana Cara & Proses Pengajuan Pinjaman ?
                             </button>
@@ -309,8 +302,7 @@
                 <div class="card">
                     <div class="card-header" id="headingFive">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
-                                aria-expanded="false" aria-controls="collapseFive">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 <i class="fas fa-play"></i>
                                 Apakah ada potongan atau biaya lain ?
                             </button>
@@ -334,8 +326,7 @@
                 <div class="card">
                     <div class="card-header" id="headingSix">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
-                                aria-expanded="false" aria-controls="collapseSix">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 <i class="fas fa-play"></i>
                                 Apakah Data & BPKB saya Aman ?
                             </button>
@@ -375,7 +366,7 @@
                         <div class="promo-tawaran">
                             Mau Diskon Angsuran 3 bulan pertama Tanpa Diundi ?
                         </div>
-                        <button class="btn btn-custom">Ya, Saya mau</button>
+                        <a href="https://wa.me/6282321760690?text=Halo%20admin,%20saya%20mau%20tanya%20info%20Promo%20bulan%20ini" class="btn btn-custom">Ya, Saya mau</a>
                         <div class="promo-tawaran-syarat">
                             Diskon/potongan Angsuran berlaku untuk Konsumen BPKB Mobil,
                             Truk dan Motor yang mengajukan Promo Bulan ini
@@ -397,16 +388,13 @@
                     <img src="<?php echo base_url(); ?>/src/image/11-0.png" class="img-fluid investor-img" alt="" />
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img src="<?php echo base_url(); ?>/src/image/e98d3e12c9d02dfc900dbeeef54ed832.png"
-                        class="img-fluid infobank-img" alt="" />
+                    <img src="<?php echo base_url(); ?>/src/image/e98d3e12c9d02dfc900dbeeef54ed832.png" class="img-fluid infobank-img" alt="" />
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img src="<?php echo base_url(); ?>/src/image/Logo-APPI-transparan.png" class="img-fluid appi-img"
-                        alt="" />
+                    <img src="<?php echo base_url(); ?>/src/image/Logo-APPI-transparan.png" class="img-fluid appi-img" alt="" />
                 </div>
                 <div class="col-md-3 col-sm-6 col-6">
-                    <img src="<?php echo base_url(); ?>/src/image/OJK (Otoritas Jasa Keuangan) vector logo.png"
-                        class="img-fluid ojk-img" alt="" />
+                    <img src="<?php echo base_url(); ?>/src/image/OJK (Otoritas Jasa Keuangan) vector logo.png" class="img-fluid ojk-img" alt="" />
                 </div>
             </div>
         </div>
